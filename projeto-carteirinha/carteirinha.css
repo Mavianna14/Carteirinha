@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-color: black;
+}
+
+th {
+  background-color: gold;
+  font-size: larger;
+  text-align: center;
+}
+
+.foot {
+  background-color: red;
+  text-align: center;
+  font-size: large;
+}
