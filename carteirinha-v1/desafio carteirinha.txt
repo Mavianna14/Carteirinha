@@ -1,0 +1,15 @@
+
+
+Criar no html e css uma carterinha escolar. 
+
+Ex: 
+
+         Clube do DEV
+
+
+                       Nome:
+                       Data de nascimento 
+ FOto do estudante     Matricula 
+                       Rg 
+                       Validade 
+
