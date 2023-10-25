@@ -27,6 +27,11 @@ div{
     width: 25px;
     height: 160px;
     margin-top: 250px;
+    font-size: 8px;
+    color: aliceblue;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    transform: rotate(-180deg);
 }
 
 .cabeca{
