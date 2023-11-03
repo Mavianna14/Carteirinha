@@ -61,11 +61,7 @@ div{
     border-bottom-right-radius: 500px;
     border-top-left-radius:500px;
     border-bottom-left-radius: 500px;
-
 }
-
-
-
 
 .meio{
     display: flex;
@@ -76,62 +72,43 @@ div{
 
 }
 
-.imagem{
-    
+.imagem{    
     width: 150px;
     height: 170px;
- 
 }
 
 #foto{
-    
     width: 128px;
     height: 170px;    
 }
 
-
 .texto{
- 
-    width: 330px;
-    height: 170px;
-    background-color: white;   
-    
-}
-
-h1{
-
-    font-size: 12px;
-    margin-right: 25px;
-    
-}
-
-p{
-    font-size: 10px;
-    
-  
-}
-
-.nome{
-
-    width: 250px;
-    height: 50px;
-}
-
-
-
-.cpf{
-
-    background-color: aqua;
+    display: flex;
     width: 300px;
-    height: 60px;
-    margin-top: 30px;
+    height: 180px;
+    align-items: flex-start;   
 }
 
+.texto .dadosAluno {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: flex-start;
+}
 
+.dadosAluno h1{  
+    font-size: 13px;  
+    color: white;
+}
 
+.dadosAluno p{
+    font-size: 13px;  
+    color: black;
+}
 
-
-
+.texto .dadosAluno .cpf{
+    margin: 0 50px;
+}
 
 .pe{
     background-color: gray;
@@ -140,24 +117,18 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
-
-    
+    align-content: center;    
 }
 
 #scan{
     display: flex;
-    
     width: 100px;
     height: 100px;
     flex-grow: 1;
     margin-left: 20px;
-    
-
 }
 
 .codigo{
-
     flex-grow: 2;
     justify-content: center;
     align-items: center;
@@ -175,7 +146,6 @@ h2{
 }
 
 .data{
-
     flex-grow: 1;
     justify-content: center;
     align-items: center;
@@ -187,5 +157,3 @@ h2{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
